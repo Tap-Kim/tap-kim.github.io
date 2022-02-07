@@ -1,64 +1,34 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
-version: 2
+# repository: Tap-Kim/resume/
+repository: Tap-Kim/tap-kim.github.io
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: 김태현
+title: React & Javascript FrontEnd 
+email: cola9k@naver.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+# darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username: Tap-Kim
+linkedin_username: taehyeon-kim-44432bb6
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  -	React, Javascript, redux-saga, ReactNative(Exppo)java, spring, postgresql, Typescript(학습중)
+  -	9가지 서비스 개발 경험, 기획/디자인/연동 서비스 간의 비즈니스 커뮤니케이션 역량
+    법률 비지니스 플랫폼(위하고 L), 근태관리(관리자 화면), 경비청구 모바일(Expo), 물류(Smart A), 매출채권팩토링 등
+  - 법률 비지니스 플랫폼 3개 서비스 DB/화면 설계, 근태관리 서비스 화면 및 DB 설계
+  - 근태관리 관리자/사용자 다섯 근로제 구조 설계, 경비청구 모바일 마이그레이션(웹->모바일) 1인개발, 물류 마이그레이션(cs->웹)
+  -	FE/BE개발 비율(FE : BE = 7 : 3)
 
 content:
   - title: Projects # Title for the section
@@ -116,8 +86,8 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/resume-theme
 
 sass:
   sass_dir: _sass
